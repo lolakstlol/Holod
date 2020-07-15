@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import RxSwift
+import RxAlamofire
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+    let stringURL = "https://api.github.com/users/hadley/orgs"
+      
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+       let session = Session.default
+
+       _ = session.rx.request(.get, stringURL)
+        .validate(statusCode: 200 ..< 300)
+        .validate(contentType: ["application/json"])
+        .json()
+        .observeOn(MainScheduler.instance)
+        .subscribe { print($0) }
+
+
         return true
     }
 

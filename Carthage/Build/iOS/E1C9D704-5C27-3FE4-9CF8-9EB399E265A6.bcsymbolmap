@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
 Apple clang version 11.0.3 (clang-1103.0.32.62)
-/Users/runner/Library/Developer/Xcode/DerivedData/RxAlamofire-amngjjyskpcuahczkycsushvjsmy/Build/Intermediates.noindex/ArchiveIntermediates/RxAlamofire iOS/IntermediateBuildFilesPath/RxAlamofire.build/Release-iphoneos/RxAlamofire iOS.build/DerivedSources/RxAlamofire_vers.c
-/Users/runner/work/RxAlamofire/RxAlamofire
+/Users/artemholodok/Library/Caches/org.carthage.CarthageKit/DerivedData/11.5_11E608c/RxAlamofire/v5.6.0/Build/Intermediates.noindex/ArchiveIntermediates/RxAlamofire iOS/IntermediateBuildFilesPath/RxAlamofire.build/Release-iphoneos/RxAlamofire iOS.build/DerivedSources/RxAlamofire_vers.c
+/Users/artemholodok/Desktop/shit/Holod/Carthage/Checkouts/RxAlamofire
 _globalinit_33_B37E8778D07BE2DFFBE2899E6173A477_func0
 ___swift_project_boxed_opaque_existential_1
 _$ss13_StringObjectV7VariantOWOy
@@ -642,7 +642,7 @@ _$s11RxAlamofire0aB8ResponseTL
 Apple clang version 11.0.3 (clang-1103.0.32.53)
 <swift-imported-modules>
 Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
-/Users/runner/work/RxAlamofire/RxAlamofire/Sources/RxAlamofire/RxAlamofire.swift
+/Users/artemholodok/Desktop/shit/Holod/Carthage/Checkouts/RxAlamofire/Sources/RxAlamofire/RxAlamofire.swift
 objectdestroy.516
 <compiler-generated>
 $s7RxSwift8ReactiveV0A9Alamofire0D07SessionCRbzlE7requestyAA10ObservableCyqd__Gqd__AGKcAD0aD7RequestRd__lFAA10Disposable_pAA11AnyObserverVyqd__GcfU_yycfU0_TA
@@ -987,7 +987,7 @@ _$sSo17NSHTTPURLResponseC8response_10Foundation4DataV4datatML
 _got.$ss18_DictionaryStorageCMn
 _symbolic _____ySSypG s18_DictionaryStorageC
 _$ss18_DictionaryStorageCySSypGMD
-/Users/runner/work/RxAlamofire/RxAlamofire/Sources/RxAlamofire/Cocoa/URLSession+RxAlamofire.swift
+/Users/artemholodok/Desktop/shit/Holod/Carthage/Checkouts/RxAlamofire/Sources/RxAlamofire/Cocoa/URLSession+RxAlamofire.swift
 $sypWOc
 $sSS3key_yp5valuetSgWOh
 $sSo17NSHTTPURLResponseC8response_10Foundation4DataV4datatMa

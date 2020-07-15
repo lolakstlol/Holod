@@ -28,6 +28,7 @@
 		2A67EC5624BF3DC10020BC05 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A67EC4724BF3DC10020BC05 /* RxCocoa.framework */; };
 		2A67EC5724BF3DC10020BC05 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A67EC4724BF3DC10020BC05 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2A67EC6524BF486D0020BC05 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67EC6424BF486D0020BC05 /* ViewModel.swift */; };
+		2A67EC6B24BF59D60020BC05 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 2A67EC6924BF59D50020BC05 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +69,7 @@
 		2A67EC4624BF3DC10020BC05 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		2A67EC4724BF3DC10020BC05 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		2A67EC6424BF486D0020BC05 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2A67EC6924BF59D50020BC05 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile; path = "Holod/Supporting Files/Cartfile"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +110,10 @@
 		2A67EC2A24BF38720020BC05 /* Holod */ = {
 			isa = PBXGroup;
 			children = (
+				2A67EC6724BF51B70020BC05 /* BaseFiles */,
 				2A67EC6624BF493F0020BC05 /* Supporting Files */,
 				2A67EC2B24BF38720020BC05 /* AppDelegate.swift */,
 				2A67EC2D24BF38720020BC05 /* SceneDelegate.swift */,
-				2A67EC2F24BF38720020BC05 /* ViewController.swift */,
-				2A67EC6424BF486D0020BC05 /* ViewModel.swift */,
 				2A67EC3124BF38720020BC05 /* Main.storyboard */,
 				2A67EC3924BF38760020BC05 /* Info.plist */,
 			);
@@ -137,10 +138,28 @@
 		2A67EC6624BF493F0020BC05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A67EC6924BF59D50020BC05 /* Cartfile */,
 				2A67EC3424BF38760020BC05 /* Assets.xcassets */,
 				2A67EC3624BF38760020BC05 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A67EC6724BF51B70020BC05 /* BaseFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2A67EC6824BF51C60020BC05 /* BaseModule */,
+			);
+			path = BaseFiles;
+			sourceTree = "<group>";
+		};
+		2A67EC6824BF51C60020BC05 /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				2A67EC2F24BF38720020BC05 /* ViewController.swift */,
+				2A67EC6424BF486D0020BC05 /* ViewModel.swift */,
+			);
+			path = BaseModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +224,7 @@
 			files = (
 				2A67EC3824BF38760020BC05 /* LaunchScreen.storyboard in Resources */,
 				2A67EC3524BF38760020BC05 /* Assets.xcassets in Resources */,
+				2A67EC6B24BF59D60020BC05 /* Cartfile in Resources */,
 				2A67EC3324BF38720020BC05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +245,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxAlamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 			);
 			outputFileListPaths = (
 			);
